@@ -2,13 +2,12 @@ function App() {
 
   return (
     <>
-    <div className="navbar bg-base-300">
+    <div className="navbar bg-base-300 shadow-sm">
   <div className="flex-1">
-    <a className="btn btn-ghost text-2xl  font-bold">DevSphere</a>
+    <a className="btn btn-ghost text-xl">DevSphere</a>
   </div>
-  <div className="flex-none gap-2">
-    {/* <div className="form-control"></div> */}
-    <div className="dropdown dropdown-end mx-300">
+  <div className="flex gap-2">
+    <div className="dropdown dropdown-end mx-5">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
           <img
@@ -17,12 +16,12 @@ function App() {
         </div>
       </div>
       <ul
-        tabIndex={0}
+        tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li>
-          <a>
+          <a className="justify-between">
             Profile
-            {/* <span className="badge">New</span> */}
+            <span className="badge">New</span>
           </a>
         </li>
         <li><a>Settings</a></li>
@@ -31,7 +30,7 @@ function App() {
     </div>
   </div>
 </div>
-     <h1 className="text-3xl font-bold underline">Hello World</h1>
+     {/* <h1 className="text-3xl font-bold bg-red-500 underline">Hello World</h1> */}
     </>
   )
 }
