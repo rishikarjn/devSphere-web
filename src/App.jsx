@@ -15,7 +15,6 @@ function App() {
     </Route>
    </Routes>
 </BrowserRouter>
-     {/* <h1 className="text-3xl font-bold bg-red-500 underline">Hello World</h1> */}
     </>
   )
 }
