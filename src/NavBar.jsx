@@ -18,7 +18,7 @@ const NavBar = () => {
         <div className="w-10 rounded-full">
           <img
             alt="user photo"
-            src="{https://st.depositphotos.com/1011643/1248/i/450/depositphotos_12485614-stock-photo-asian-businesswoman-with-tablet-computer.jpg}" />
+            src="https://img.freepik.com/free-photo/businesswoman-posing_23-2148142829.jpg?semt=ais_hybrid&w=740&q=80"/>
         </div>
       </div>
       <ul
