@@ -34,7 +34,7 @@ const NavBar = () => {
         <div className="w-10 rounded-full">
           <img
             alt="user photo"
-            src="https://img.freepik.com/free-photo/businesswoman-posing_23-2148142829.jpg?semt=ais_hybrid&w=740&q=80"/>
+            src="https://img.freepik.com/free-photo/medium-shot-woman-posing-indoors_23-2149915935.jpg?semt=ais_hybrid&w=740&q=80"/>
         </div>
       </div>
       <ul
